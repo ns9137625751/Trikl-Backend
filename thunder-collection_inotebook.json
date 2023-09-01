@@ -1,0 +1,119 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "TRIKL",
+    "dateExported": "2023-09-01T03:09:06.938Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "c8926b8c-3ff1-43e7-97fd-941c16c16a94",
+            "name": "Notes",
+            "containerId": "",
+            "created": "2023-01-11T10:38:04.929Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "ce13d267-c38d-4d93-b745-b6989ce5fe4e",
+            "colId": "fd9d09be-4414-47fe-ba97-f405f1aab278",
+            "containerId": "c8926b8c-3ff1-43e7-97fd-941c16c16a94",
+            "name": "Fetch all Items",
+            "url": "localhost:5000/api/items/items",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-01-11T10:38:23.124Z",
+            "modified": "2023-08-31T17:51:32.603Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjNiZDRkZGU4MWM3YmRkZjgzZmY3OGQ0In0sImlhdCI6MTY3MzUwMDYzOX0.VWtJXe90HjIo-vMFh8vqG6hQpH-iKc0zhDd8hFqiJT0"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "876b95a3-1efd-4e89-bdf7-bede49169841",
+            "colId": "fd9d09be-4414-47fe-ba97-f405f1aab278",
+            "containerId": "c8926b8c-3ff1-43e7-97fd-941c16c16a94",
+            "name": "Add items",
+            "url": "localhost:5000/api/items/items",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-01-11T12:02:16.343Z",
+            "modified": "2023-08-31T18:00:56.819Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjNiZDRkZGU4MWM3YmRkZjgzZmY3OGQ0In0sImlhdCI6MTY3MzUwMDYzOX0.VWtJXe90HjIo-vMFh8vqG6hQpH-iKc0zhDd8hFqiJT0"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Nishant shekhada\",\n  \"address\" : \"Ahmedabad\",\n  \"phonenumber\" : \"7894561230\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "dd75c824-8425-4a67-ab6b-3ade8426b86c",
+            "colId": "fd9d09be-4414-47fe-ba97-f405f1aab278",
+            "containerId": "c8926b8c-3ff1-43e7-97fd-941c16c16a94",
+            "name": "update items",
+            "url": "localhost:5000/api/items/items/64f0d558ad879d21002a2b79",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-01-12T04:54:49.818Z",
+            "modified": "2023-08-31T18:01:23.372Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjNiZDRkZGU4MWM3YmRkZjgzZmY3OGQ0In0sImlhdCI6MTY3MzUwMDYzOX0.VWtJXe90HjIo-vMFh8vqG6hQpH-iKc0zhDd8hFqiJT0"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"nishant patel\",\n  \"address\" : \"Ahmedabad\",\n  \"phonenumber\" : \"7894561230\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b0633b84-bf2c-43a0-ba79-f9a94cdff527",
+            "colId": "fd9d09be-4414-47fe-ba97-f405f1aab278",
+            "containerId": "c8926b8c-3ff1-43e7-97fd-941c16c16a94",
+            "name": "delete a items",
+            "url": "localhost:5000/api/items/items/64f0d307bac9910116299ba0",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-01-12T05:31:06.400Z",
+            "modified": "2023-08-31T18:04:26.751Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjNiZDRkZGU4MWM3YmRkZjgzZmY3OGQ0In0sImlhdCI6MTY3MzUwMDYzOX0.VWtJXe90HjIo-vMFh8vqG6hQpH-iKc0zhDd8hFqiJT0"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
